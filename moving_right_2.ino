@@ -130,7 +130,6 @@ void setup() {
     Serial.println(val,DEC);
    }
     val = 0;
-    Serial.println(" ");
   }
   }
 
@@ -158,20 +157,6 @@ unsigned char reverseBits(unsigned char n) {
     }
     return s;
 }
-
-
-//unsigned char pixels(char n){
-//    char p=128;
-//    if(n==0){
-//        return 128;
-//    }else{
-//        for(int i=1;i<=n;i++){
-//            p = p/2;
-//        }
-//        return p;
-//    }
-//}
-
 
 unsigned char pixels(char n){
     char p=1;
